@@ -15,6 +15,7 @@ func main() {
 	output1 := sameElement(nums1, nums2)
 	output2 := sameElement(nums3, nums4)
 	output3 := sameElement(nums5, nums6)
+	
 	fmt.Println(output1)
 	fmt.Println(output2)
 	fmt.Println(output3)
