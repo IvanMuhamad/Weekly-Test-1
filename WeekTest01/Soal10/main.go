@@ -7,7 +7,11 @@ import (
 func addDigits(nums1 []int, nums2 []int) []int {
 	num1 := len(nums1)
 	num2 := len(nums2)
-	maxLen := max(num1, num2) //pilih array terpanjang untuk array hasil
+	if num1 > num2 {
+		maxLen = num1
+	} else {
+		maxLen = num2
+	}
 	result := make([]int, maxLen+1)
 
 	store := 0
@@ -31,13 +35,6 @@ func addDigits(nums1 []int, nums2 []int) []int {
 	}
 
 	return result[1:]
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
 
 func main() {
