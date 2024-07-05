@@ -17,7 +17,6 @@ func oddBeforeEvent(nums []int) []int {
 	}
 
 	result := append(ganjil, genap...)
-
 	return result
 }
 
