@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func oddBeforeEvent(nums []int) []int {
+func oddBeforeEven(nums []int) []int {
 	var genap []int
 	var ganjil []int
 
@@ -22,5 +22,5 @@ func oddBeforeEvent(nums []int) []int {
 
 func main() {
 	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	fmt.Println(oddBeforeEvent(nums))
+	fmt.Println(oddBeforeEven(nums))
 }
