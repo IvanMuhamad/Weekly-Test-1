@@ -10,6 +10,7 @@ func main() {
 	output1 := plusOne(nums1)
 	output2 := plusOne(nums2)
 	output3 := plusOne(nums3)
+	
 	fmt.Println(output1)
 	fmt.Println(output2)
 	fmt.Println(output3)
