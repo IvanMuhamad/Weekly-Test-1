@@ -6,8 +6,8 @@ func main() {
 	words1 := "bananas"
 	words2 := "lalalamama"
 
-	fmt.Println("Case 1: ", removeDuplicate(words1))
-	fmt.Println("Case 2: ", removeDuplicate(words2))
+	fmt.Println(removeDuplicate(words1))
+	fmt.Println(removeDuplicate(words2))
 }
 
 func removeDuplicate(words string) string {
